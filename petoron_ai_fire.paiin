@@ -1,0 +1,6 @@
+PAIIN:1
+goal:avoid danger
+observe:fire is hot
+observe:hot can burn
+rule:simple_causal_inference|fire is hot|hot can burn|fire can burn
+rule:risk_inference|fire can burn|hot can burn|fire is dangerous
